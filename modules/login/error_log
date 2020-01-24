@@ -1,0 +1,16 @@
+[03-Aug-2019 12:31:41 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/nbf/public_html/erp/functions.php on line 24
+[03-Aug-2019 12:31:41 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nbf/public_html/erp/functions.php on line 358
+[03-Aug-2019 12:31:41 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nbf/public_html/erp/functions.php on line 359
+[03-Aug-2019 12:31:43 Asia/Kolkata] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/nbf/public_html/erp/functions.php on line 24
+[03-Aug-2019 12:31:43 Asia/Kolkata] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/nbf/public_html/erp/functions.php on line 358
+[03-Aug-2019 12:31:43 Asia/Kolkata] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, null given in /home/nbf/public_html/erp/functions.php on line 359
+[26-Nov-2019 10:12:01 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/login/backup.php on line 10
+[26-Nov-2019 10:12:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on boolean in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/login/backup.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/login/backup.php on line 11
+[14-Dec-2019 09:15:42 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/login/backup.php on line 10
+[14-Dec-2019 09:15:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function set_charset() on boolean in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/login/backup.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/login/backup.php on line 11

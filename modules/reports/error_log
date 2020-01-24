@@ -1,0 +1,39 @@
+[19-Nov-2019 13:46:44 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 381
+[20-Nov-2019 14:51:36 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 241
+[20-Nov-2019 14:51:44 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 241
+[20-Nov-2019 14:51:46 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 241
+[20-Nov-2019 14:52:18 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 241
+[20-Nov-2019 14:52:22 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php:241
+Stack trace:
+#0 {main}
+  thrown in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 241
+[20-Nov-2019 09:29:01 UTC] PHP Parse error:  syntax error, unexpected 'SELECT' (T_STRING) in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 274
+[20-Nov-2019 09:42:40 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 191
+[20-Nov-2019 15:25:17 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 258
+[20-Nov-2019 15:26:17 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 258
+[20-Nov-2019 15:27:17 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 258
+[20-Nov-2019 15:28:17 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 258
+[20-Nov-2019 15:29:18 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 258
+[20-Nov-2019 15:33:13 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 264
+[20-Nov-2019 15:33:43 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 264
+[20-Nov-2019 15:34:13 Asia/Kolkata] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 264
+[20-Nov-2019 15:43:28 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Call to undefined function prin_r() in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php:271
+Stack trace:
+#0 {main}
+  thrown in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 271
+[20-Nov-2019 15:45:37 Asia/Kolkata] PHP Fatal error:  Uncaught Error: Unsupported operand types in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php:263
+Stack trace:
+#0 {main}
+  thrown in /home/w20h70tqyxt9/public_html/erp.nikkibites.com/modules/reports/gst_report.php on line 263

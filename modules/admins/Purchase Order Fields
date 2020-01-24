@@ -1,0 +1,14 @@
+Purchase Order Fields
+
+vendore Selction - Dropdown
+Order Date
+Purchase Order Number - Auto Increment
+Invoice Number - Text Box
+Dipatch Through
+Disptch by
+Transport By
+vehicle Number
+Remarks
+
+Product Name | HSN Code |  QTY  | Price Per Qty | Discount | GST | Total
+Potato			DEMO	  10 KG	    10 Rs           0        5%     10*10-Discount+GST%
