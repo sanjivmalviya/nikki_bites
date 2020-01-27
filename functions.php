@@ -4,32 +4,29 @@ error_reporting(1);
 session_start();
 date_default_timezone_set('Asia/Kolkata');
 $timestamp = date('Y-m-d h:i:s');
-//$baseurl = "http://".$_SERVER['SERVER_NAME']."/nikki_bites";
- $baseurl = "http://".$_SERVER['SERVER_NAME']."";
+$baseurl = "http://".$_SERVER['SERVER_NAME']."/softworld_projects/nikki_bites";
+//  $baseurl = "http://".$_SERVER['SERVER_NAME']."";
 define('ROOT',$baseurl);
-//define('APPPATH',$_SERVER['DOCUMENT_ROOT']."/nikki_bites");
- define('APPPATH',$_SERVER['DOCUMENT_ROOT']."");
-define('DB',"nikki_bites");
+define('APPPATH',$_SERVER['DOCUMENT_ROOT']."/softworld_projects/nikki_bites");
+//  define('APPPATH',$_SERVER['DOCUMENT_ROOT']."");
+define('DB',"softworld_nikki_bites");
 
 // database connection
-
 function connect(){
 
-  //  $host = 'localhost';
+    $host = 'localhost';
 
-    // $user = 'root';
+    $user = 'root';
 
-    // $password = '';
+    $password = '';
 
-     $host = 'localhost';
+    //  $host = 'localhost';
 
-     $user = 'nikki_bites';
+    //  $user = 'nikki_bites';
 
-     $password = 'S*o_e5qWoFDT';
-
+    //  $password = 'S*o_e5qWoFDT';
 
     $db = DB;
-
 
     $connect = mysqli_connect($host,$user,$password,$db);
 
@@ -306,27 +303,31 @@ function isExists($table,$field,$field_value){
 }
 
 function sendSMS($mobile_number,$message){
-    
+
+    // $direct_transaction_api = "http://sms.bulksmsserviceproviders.com/api/send_http.php?authkey=f148b1948e6be2ddfc5a45c9fbd3323d&mobiles=9898363557&message=Hello%20Worlds&sender=NKKBTS&route=B";
+
     //Your authentication key
     $authKey = "f148b1948e6be2ddfc5a45c9fbd3323d";
     //Multiple mobiles numbers separated by comma
     $mobileNumber = $mobile_number;
     //Sender ID,While using route4 sender id should be 6 characters long.
-    $senderId = "SFTWRD";
+    $senderId = "NKKBTS";
     //Your message to send, Add URL encoding here.
     $message = $message;
+    
     //Define route 
-    $route = "default";
-    //Prepare you post parameters
+    $route = "B";
+    
     $postData = array(
-        'authkey' => $authKey,
-        'mobiles' => $mobileNumber,
-        'message' => $message,
-        'sender' => $senderId,
-        'route' => $route
+    'authkey' => $authKey,
+    'mobiles' => $mobileNumber,
+    'message' => $message,
+    'sender' => $senderId,
+    'route' => $route
     );
     //API URL
     $url = "http://sms.bulksmsserviceproviders.com/api/send_http.php";
+
     // init the resource
     $ch = curl_init();
     curl_setopt_array($ch, array(
@@ -346,31 +347,25 @@ function sendSMS($mobile_number,$message){
         echo 'error:' . curl_error($ch);
     }
     curl_close($ch);
+
     return $output;
 
 }
 
 function sendSMS2($mobile_number,$msg){
 
-
-
         //Your authentication key
 
         $authKey = "100679AO6BL8ElT56c2fb0f";
-
 
 
         //Multiple mobiles numbers separated by comma
 
         $mobileNumber = $mobile_number;
 
-
-
         //Sender ID,While using route4 sender id should be 6 characters long.
 
         $senderId = "AHCARE";
-
-
 
         //Your message to send, Add URL encoding here.
 
@@ -1162,10 +1157,7 @@ function time_ago($ts){
 
 function send_notification($sender_user_type,$sender_id,$receiver_user_type,$receiver_id,$notification_title,$notification_description){
 
-
-
       // feed notification
-
       $form_data = array(
 
          'notification_sender_user_type' => $sender_user_type,
@@ -1183,8 +1175,6 @@ function send_notification($sender_user_type,$sender_id,$receiver_user_type,$rec
       );
 
       insert('tbl_notifications',$form_data);
-
-
 
 }
 
