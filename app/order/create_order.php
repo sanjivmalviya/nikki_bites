@@ -27,12 +27,12 @@
         $last_id = last_id('tbl_orders','order_id');
 
         // 3 - SEND SMS TO ADMIN THAT YOU HAVE RECIEVED AN ORDER
-        // $getCustomerDetails = getOne('tbl_customer','customer_id',$user_id);
-        // $getAdminDetails = getOne('tbl_admins','admin_id',$getCustomerDetails['added_by']);
-        // $admin_mobile = $getAdminDetails['admin_mobile'];
-        // $customer_name = $getCustomerDetails['customer_name'];
-        // $message = "You have a recieved an order from ".$customer_name.", Your Order Number is ".$order_number." ";
-        // sendSMS($admin_mobile,$message);
+        $getCustomerDetails = getOne('tbl_customer','customer_id',$user_id);
+        $getAdminDetails = getOne('tbl_admins','admin_id',$getCustomerDetails['added_by']);
+        $admin_mobile = $getAdminDetails['admin_mobile'];
+        $customer_name = $getCustomerDetails['customer_name'];
+        $message = "You have a recieved an order from ".$customer_name.", Your Order Number is ".$order_number." ";
+        sendSMS($admin_mobile,$message);
 
         $i=0;
         foreach($request->order_detail as $rs){

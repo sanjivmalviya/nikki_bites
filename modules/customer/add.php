@@ -172,6 +172,7 @@
         $message = "Your account has been created as Distributer/Customer, Your account username is : ".$customer_email." and password is : ".$customer_password." ";
         sendSMS($customer_mobile,$message);
         
+        
         $success = "Customer Added Successfully";
 
      }else{

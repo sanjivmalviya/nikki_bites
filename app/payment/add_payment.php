@@ -34,12 +34,12 @@
       if(insert('tbl_payments',$form_data)){              
 
         // 2 - SEND SMS TO ADMIN THAT YOU HAVE RECIEVED A PAYMENT REQUEST
-        // $getCustomerDetails = getOne('tbl_customer','customer_id',$login_id);
-        // $getAdminDetails = getOne('tbl_admins','admin_id',$getCustomerDetails['added_by']);
-        // $admin_mobile = $getAdminDetails['admin_mobile'];
-        // $customer_name = $getCustomerDetails['customer_name'];
-        // $message = "You have a payment approval request of ".$_POST['payment_amount']." from ".$customer_name." ";
-        // sendSMS($admin_mobile,$message);
+        $getCustomerDetails = getOne('tbl_customer','customer_id',$login_id);
+        $getAdminDetails = getOne('tbl_admins','admin_id',$getCustomerDetails['added_by']);
+        $admin_mobile = $getAdminDetails['admin_mobile'];
+        $customer_name = $getCustomerDetails['customer_name'];
+        $message = "You have a payment approval request of ".$_POST['payment_amount']." from ".$customer_name." ";
+        sendSMS($admin_mobile,$message);
 
 
           $last_payment_id = last_id('tbl_payments','payment_id'); 
